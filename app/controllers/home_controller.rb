@@ -1,6 +1,11 @@
 class HomeController < ApplicationController
 
   def index
-    response = Dinosaurus.synonyms_of('read')
   end
+
+  # future ajax method to hit
+  # def get_synonym_array
+  #   @synonym_array = Dinosaurus.synonyms_of(params['base_word'])
+  # end
+
 end
