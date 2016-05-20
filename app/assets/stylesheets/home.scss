@@ -1,3 +1,85 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+::-webkit-input-placeholder {
+   color: #F1FFE7;
+   font-size: 20px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #F1FFE7;
+   font-size: 20px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #F1FFE7;
+   font-size: 20px;
+}
+
+:-ms-input-placeholder {
+   color: #F1FFE7;
+   font-size: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    font-size: 20px;
+    color: #F1FFE7;
+}
+
+input, select, textarea{
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+
+@font-face {
+  font-family: 'happytext';
+  src: url('/assets/Happy-Camper-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  background-color: #4F86C6;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "happytext";
+  color: #F1FFE7;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: monospace;
+  margin-top: 2px;
+  color: #F1FFE7;
+  font-size: 16px;
+}
+
+.input-box {
+  padding-top: 50px;
+  text-align: center;
+  background: transparent;
+  height: 30px;
+  width: 249px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+}
+
+.title-container {
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
