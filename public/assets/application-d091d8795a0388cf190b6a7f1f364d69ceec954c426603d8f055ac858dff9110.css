@@ -1,0 +1,109 @@
+/* line 5, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+::-webkit-input-placeholder {
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+/* line 10, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+/* line 15, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+/* line 20, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+:-ms-input-placeholder {
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+/* line 25, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+textarea:focus, input:focus {
+  outline: none;
+  font-size: 20px;
+  color: #F1FFE7;
+}
+
+/* line 31, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+input, select, textarea {
+  color: #F1FFE7;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'happytext';
+  src: url(/assets/Happy-Camper-Regular-e1012493a2f497e8ec8dc32543b9ba6e6ab5b99927121124058367b7fb4fdd0f.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 44, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+html, body {
+  height: 100%;
+  background-color: #4F86C6;
+}
+
+/* line 49, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+h1 {
+  font-size: 100px;
+  font-family: "happytext";
+  color: #F1FFE7;
+  margin-bottom: 0px;
+}
+
+/* line 56, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+h2 {
+  font-family: monospace;
+  margin-top: 2px;
+  color: #F1FFE7;
+  font-size: 16px;
+}
+
+/* line 63, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+.input-box {
+  padding-top: 50px;
+  text-align: center;
+  background: transparent;
+  height: 30px;
+  width: 249px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+}
+
+/* line 74, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+.title-container {
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 82, /home/vagrant/what-the-hell-should-I-name-this/wthsint/app/assets/stylesheets/home.scss */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
