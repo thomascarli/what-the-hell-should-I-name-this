@@ -15,9 +15,10 @@ Rails.application.configure do
   config.action_controller.perform_caching = true
 
   config.assets.precompile << Proc.new { |path|
-  if path =~ /\.(eot|svg|ttf|woff)\z/
-    true
-  end
+    if path =~ /\.(eot|svg|ttf|woff)\z/
+      true
+    end
+  }
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
