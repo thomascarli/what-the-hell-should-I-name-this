@@ -14,3 +14,34 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function generate_name(user_input) {
+  $.ajax({
+    url: "/generate_name",
+    type: "POST",
+    data: { "user_input": user_input },
+    success: function(json) {
+      generated_name = json.result.toString();
+      $('.generated-name').text(generated_name);
+    }
+  });
+}
+
+function update_instructions() {
+  $(".instructions").text("REALLY? GIVE ME ANOTHER");
+}
+
+$( document ).on('ready page:load', function() {
+
+  //User presses enter
+  $(window).keydown(function(e) {
+
+    var user_input = $(".input-box").val();
+
+    if (e.keyCode === 13) {
+      generate_name(user_input);
+      update_instructions();
+    }
+  });
+
+});
