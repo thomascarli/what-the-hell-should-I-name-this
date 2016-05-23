@@ -1,28 +1,26 @@
-== README
+# WHAT THE HELL SHOULD I NAME THIS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Naming shit is hard. WTHSINT is a simple open source name generator to help you find the perfect name for your variables, methods, services and everything else in between.
+For the MVP, this will essentially be a thesaurus.  Eventually, I would love this to be a stupid website where you can find dumb names for all your shit!
 
-Things you may want to cover:
+## Contributing
 
-* Ruby version
+* Fork it
+* Create your feature branch (git checkout -b my-new-feature)
+* Commit your changes (git commit -am 'Add some feature')
+* Push to the branch (git push origin my-new-feature)
+* Create new Pull Request
 
-* System dependencies
+## Authors
 
-* Configuration
+* **Thomas Carli** - *Initial work* - [thomascarli](https://github.com/thomascarli)
 
-* Database creation
+YOUR NAME COULD BE HERE!!!!
 
-* Database initialization
+## License
 
-* How to run the test suite
+This project is licensed under the MIT License
 
-* Services (job queues, cache servers, search engines, etc.)
+## Acknowledgements
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* **Dinosaurus** - (https://github.com//dtuite/dinosaurus)
