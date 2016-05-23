@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   end
 
   def generate_name
-    base_word = params["user_input"]
+    base_word = params["user_input"].split(" ").first
 
     synonym_array = Dinosaurus.synonyms_of(base_word)
     # get random word from array
