@@ -1,5 +1,19 @@
 class HomeController < ApplicationController
 
+  INSTRUCTIONS_ARRAY = [
+    "REALLY? GIVE ME ANOTHER",
+    "AWFUL, GiVE ME ANOTHER",
+    "YOU'RE KIDDING RIGHT?",
+    "IS THAT THE BEST YOU'VE GOT?",
+    "THAT CAN'T BE YOUR ADVICE",
+    "I COULD DO BETTER MYSELF",
+    "WHOSE IDEA WAS THIS?",
+    "THIS IS RIDICULOUS",
+    "GO DRUNK YOUR HOME",
+    "I'VE GOT NO EXCUSES",
+    "ARE WE SURE THIS IS WORKING?"
+  ]
+
   def index
   end
 
@@ -16,9 +30,12 @@ class HomeController < ApplicationController
     end
   end
 
-  # future ajax method to hit
-  # def get_synonym_array
-  #   @synonym_array = Dinosaurus.synonyms_of(params['base_word'])
-  # end
+  def generate_instruction
+    result = {"result": INSTRUCTIONS_ARRAY.sample}
+
+    respond_to do |format|
+      format.json { render json: result}
+    end
+  end
 
 end

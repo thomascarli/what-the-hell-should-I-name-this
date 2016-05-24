@@ -28,7 +28,14 @@ function generate_name(user_input) {
 }
 
 function update_instructions() {
-  $(".instructions").text("REALLY? GIVE ME ANOTHER");
+  $.ajax({
+    url: "/generate_instruction",
+    type: "POST",
+    success: function(json) {
+      generated_instruction = json.result.toString();
+      $(".instructions").text(generated_instruction);
+    }
+  });
 }
 
 $( document ).on('ready page:load', function() {

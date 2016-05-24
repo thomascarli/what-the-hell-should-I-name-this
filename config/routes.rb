@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root 'home#index'
 
   post 'generate_name', controller: 'home'
+  post 'generate_instruction', controller: 'home'
+
 
 
   # Example of regular route:
